@@ -1,0 +1,8 @@
+# Riley App Help Center
+
+> Help center for Riley
+
+## Riley's Help Center
+
+- [Setting Up Golden Window](https://help.rileyapp.com/en/articles/10844002-setting-up-golden-window.md): A comprehensive guide to using Golden Window, Riley's AI-powered sleep scheduling feature for children.
+- [How Voice Mode with Riley Works](https://help.rileyapp.com/en/articles/11172628-how-voice-mode-with-riley-works.md): A comprehensive guide to using Voice Mode, Riley's AI-powered response.

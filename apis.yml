@@ -1,25 +1,84 @@
 aid: riley
+
 name: Riley
-description: 'Riley is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by true-ventures) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.rileyapp.com/opengraph-image.png?178767efb40a2faf
+
+description: 'Riley is a baby tracking and child development app that learns and grows with families, offering personalized, data‑backed guidance for every stage of parenting. It provides insights, milestone tracking, and expert advice to help parents feel confident and supported throughout their child’s growth journey.'
+
 url: https://raw.githubusercontent.com/api-evangelist/riley/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-24 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-24'
+
 modified: '2026-10-24'
+
 tags:
 - Company
-apis: []
+- BabyTracker
+- Parenting
+- ChildDevelopment
+- MobileApp
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- true-ventures
+
 common:
+- type: LLMsTxt
+  url: llms/riley-llms.txt
+- type: SecurityTxt
+  url: well-known/riley-help-security.txt
+- type: WellKnown
+  url: well-known/riley-well-known.yml
+- type: Hosts
+  url: hosts/riley-hosts.yml
+- type: Vendors
+  url: vendors/riley-vendors.yml
+- type: TermsOfService
+  url: https://www.rileyapp.com/tos
+- type: Support
+  url: https://help.rileyapp.com/en/
+- type: PrivacyPolicy
+  url: https://www.rileyapp.com/privacy
+- type: Blog
+  url: https://www.rileyapp.com/blog
+- type: Documentation
+  url: https://help.rileyapp.com/
+- type: DomainSecurity
+  url: security/riley-domain-security.yml
 - type: Website
   url: https://rileyapp.com
+
+apis: []
+
+x-backed-by:
+- true-ventures
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-24'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://rileyapp.com
+    status: 200
+x-enrichment:
+  date: '2026-10-24'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

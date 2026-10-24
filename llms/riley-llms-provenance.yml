@@ -1,0 +1,6 @@
+generated: '2026-10-24'
+method: probed
+generator: harvest-llms.py
+source: https://help.rileyapp.com/llms.txt
+bytes: 476
+note: saved verbatim; the provider's own document
